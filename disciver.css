@@ -136,33 +136,42 @@ body , html {
     /* object-fit: cover; */
 }
 
-#main6 {
-    width: 100vh;
-    height: 100vh;
+#main6  img{
+    width: 600px;
+    /* height: 100vh; */
+position: absolute;
+left: 4%;
+border-radius: 20px;
+/* border: 1px solid black; */
 
 }
 #main6 h2 {
-    width: 100vh;
-    height: 100vh;
-    font-family: "Rajdhani", sans-serif;
-    font-size: 60px;
-    font-weight: 200;
     position: absolute;
-    bottom: -540%;
-    left: 21%;
-
-
+    right: 7%;
+    bottom: -430%;
+    font-weight: 300;
+    font-size: 50px;
+}
+#main6 p {
+    position: absolute;
+    right: 15%;
+    bottom: -452%;
+    font-weight: 300;
+    
+}
+#main6 button {
+    position: absolute;
+    bottom: -530%;
+    left: 45%;
+    padding: 2vw 4vw;
+    border-radius: 50px;
 }
 
-#main6 h2:hover {
-    width: 100vh;
-    height: 100vh;
-    font-family: "Rajdhani", sans-serif;
-    font-size: 60px;
-    font-weight: 600;
+#main6 button:hover {
     position: absolute;
-    bottom: -540%;
-    left: 21%;
-
-
+    bottom: -530%;
+    left: 45%;
+    padding: 2vw 4vw;
+    border-radius: 50px;
+    background-color: skyblue;
 }
