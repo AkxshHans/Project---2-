@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body , html {
+    width: 100%;
+    height: 100%;
+}
+ #main {
+    width: 100%;
+    height: 100%;
+ } 
+#backvideo video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+#leftmenu i {
+    position: absolute;
+    top: 6%;
+    left: 3%;
+    font-size: 20px;
+}
+#leftmenu i:hover {
+    position: absolute;
+    top: 6%;
+    left: 3%;
+    font-size: 20px;
+    opacity: 0.8;
+}
+#leftmenu h5 {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    font-size: 16px;
+    font-weight: 500;
+}
+#leftmenu a {
+    text-decoration: none;
+    color: black;
+}
+#leftmenu h5:hover {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+#midlogo img {
+    width: 105px;
+    position: absolute;
+    top: 4%;
+    left: 46%;
+    
+}
+#rightmenu a {
+    text-decoration: none;
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    color: black;
+    font-size: 19px;
+}
+
+#rightmenu a:hover {
+    text-decoration: none;
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    color: black;
+    font-size: 19px;
+    opacity: 0.8;
+}
+#midtext h1 {
+    position: absolute;
+    top: 47%;
+    left: 20%;
+    font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-size: 60px;
+  
+}
+#main2 {
+    width: 100%;
+    height: 100vh;
+}
+#backimg img {
+    width: 100%;
+    height: 100vh;
+}
+#ghost {
+    position: absolute;
+    bottom: -50%;
+    font-size: 100px;
+    left: 43%;
+    font-family: "Imbue", serif;
+    letter-spacing: 10px;
+    color: white;
+}
+#prism {
+    font-size: 27px;
+    left: 47%;
+    position: absolute;
+    bottom: -57%;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+#btn button {
+    background-color: white;
+    border: 2px solid white;
+    position: absolute;
+    bottom: -69%;
+    left: 44%;
+    padding: 20px;
+    border-radius: 40px;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+#btn button:hover {
+    background-color: pink;
+    color: white;
+}
+#imgbtn1 img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -90%;
+    left: 8%;
+    border-radius: 30px;
+    opacity: 0;
+}
+#imgbtn1 img:hover {
+    opacity: 1;
+}
+
+#imgbtn2 img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -90%;
+    right: 8%;
+    border-radius: 30px;
+    opacity: 0;
+}
+#imgbtn2 img:hover {
+    opacity: 1;
+}
+#ghost2 {
+   
+        position: absolute;
+        bottom: -50%;
+        font-size: 100px;
+        left: 42.7%;
+        font-family: "Imbue", serif;
+        letter-spacing: 10px;
+        color: rgba(19, 18, 18, 0.603);
+        opacity: 0;
+    
+}
+#ghost2:hover {
+    opacity: 1;
+}
+
+
+
+
